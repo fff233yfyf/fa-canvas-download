@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FA 无限画布 1.1.1 · 下载</title>
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --panel: #fffdf8;
+      --txt: #2d2923;
+      --muted: #7b7164;
+      --line: #ded5c6;
+      --accent: #b8862f;
+      --accent-2: #8f6622;
+      --ok: #2f7d5b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(900px 420px at 8% -10%, rgba(184,134,47,.16), transparent 60%),
+        radial-gradient(700px 360px at 100% 0%, rgba(47,125,91,.10), transparent 60%),
+        var(--bg);
+      color: var(--txt);
+      font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      line-height: 1.7;
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 42px 20px 70px; }
+    .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+    .logo {
+      width: 46px; height: 46px; display: grid; place-items: center;
+      border-radius: 13px; background: var(--accent); color: #fff;
+      font-weight: 800; letter-spacing: 1px;
+    }
+    .brand b { font-size: 18px; }
+    .brand small { display: block; color: var(--muted); font-size: 12px; margin-top: 1px; }
+    .hero {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 18px 50px rgba(75, 60, 35, .08);
+    }
+    .kicker { color: var(--accent-2); font-weight: 700; font-size: 13px; letter-spacing: .08em; }
+    h1 { margin: 6px 0 8px; font-size: clamp(28px, 5vw, 46px); line-height: 1.2; }
+    .sub { color: var(--muted); margin: 0 0 24px; }
+    .download {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 58px; padding: 12px 22px;
+      border-radius: 12px; background: var(--accent); color: #fff;
+      text-decoration: none; font-weight: 800; font-size: 17px;
+      box-shadow: 0 10px 24px rgba(184,134,47,.25);
+    }
+    .download:hover { background: var(--accent-2); }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 20px; }
+    .card {
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 14px; padding: 18px;
+    }
+    .card h2 { margin: 0 0 8px; font-size: 15px; }
+    .card p, .card li { color: var(--muted); font-size: 13px; }
+    ol, ul { padding-left: 20px; margin: 0; }
+    .note {
+      margin-top: 20px; padding: 14px 16px;
+      border-left: 3px solid var(--accent);
+      background: rgba(184,134,47,.07);
+      border-radius: 8px; color: var(--muted); font-size: 13px;
+    }
+    .hash {
+      margin-top: 16px; padding: 12px;
+      background: #f2ede3; border: 1px dashed var(--line);
+      border-radius: 8px; color: var(--muted); font-size: 11px;
+      word-break: break-all; font-family: Consolas, monospace;
+    }
+    .footer { margin-top: 24px; color: var(--muted); font-size: 12px; text-align: center; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; background: rgba(47,125,91,.1); color: var(--ok); font-size: 11px; }
+    @media (max-width: 700px) {
+      .wrap { padding: 24px 14px 50px; }
+      .hero { padding: 22px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">
+      <div class="logo">FA</div>
+      <div>
+        <b>FA 无限画布</b>
+        <small>豆包 2.0 Fast 免费额度 · 对话工作台版</small>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="kicker">WINDOWS 10 / 11 · 64 位</div>
+      <h1>FA 无限画布 1.1.1</h1>
+      <p class="sub">安装包已内置运行环境，不需要安装 Node，也不需要解压 zip。</p>
+
+      <a class="download" href="https://manju-canvas-1529990555.cos.ap-guangzhou.myqcloud.com/FA-canvas-installer-1.1.1.exe" download>
+        下载安装包 · 35 MB
+      </a>
+
+      <div class="meta">
+        <span>版本：1.1.1</span>
+        <span>更新：2026-11-22</span>
+        <span class="tag">普通用户不需要管理员权限</span>
+      </div>
+
+      <div class="note">
+        新用户可免费试用 <b>7 天</b>。试用到期后，需要找作者获取卡密才能继续使用。<br>
+        卡密不放在安装包里；下载安装后，按页面提示输入作者单独发给你的卡密即可。
+      </div>
+
+      <div class="hash">
+        SHA256：c1dabce1062d20eed96fece21311c6b093a802afbfce843b93da267a40531139
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>安装步骤</h2>
+        <ol>
+          <li>下载安装包。</li>
+          <li>双击安装，选择安装目录，默认即可。</li>
+          <li>如果 Windows 提示“已保护你的电脑”：点“更多信息” → “仍要运行”。</li>
+          <li>安装完成后双击桌面「FA 无限画布」，可先免费试用 7 天。</li>
+          <li>试用到期后，找作者获取卡密并输入。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>使用前确认</h2>
+        <ul>
+          <li>Windows 10 / 11 64 位。</li>
+          <li>已安装 Microsoft Edge 或 Chrome。</li>
+          <li>有可正常登录的豆包账号。</li>
+          <li>生成期间不要锁屏、睡眠或退出托盘。</li>
+          <li>画布不会自动保存节点布局，做完一段点一次「保存」。</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>试用与激活</h2>
+        <p>新用户从第一次启动起可免费试用 <b>7 天</b>。</p>
+        <p>7 天到期后程序需要卡密才能继续打开；卡密找作者获取，安装包本身不包含卡密。</p>
+      </div>
+
+      <div class="card">
+        <h2>已有用户升级</h2>
+        <p>直接下载 1.1.1 安装包覆盖安装即可，`data`、`config`、`assets` 会保留。</p>
+        <p>1.1.1 暂未推送自动更新；老用户也可以下载安装包手动升级。</p>
+      </div>
+
+      <div class="card">
+        <h2>这次更新了什么</h2>
+        <ul>
+          <li>对话页打开/关闭提速到几十毫秒。</li>
+          <li>对话页启动时先在屏幕外，不再挡画布。</li>
+          <li>关闭画布先收起对话窗口，约 1.5 秒后关闭浏览器。</li>
+          <li>对话账号不再占用热浏览器名额。</li>
+          <li>没有对话账号也能正常使用图片/视频功能。</li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="footer">
+      FA 无限画布 · 本工具不是豆包官方产品，不提供豆包账号，不突破豆包额度。
+    </p>
+  </main>
+</body>
+</html>
+
